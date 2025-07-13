@@ -22,6 +22,10 @@
     font-size: 1rem;
     background: #f8fafc;
     transition: border 0.2s, box-shadow 0.2s;
+    outline: none;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 #app__filterForm input:focus, #app__filterForm select:focus {
     border: 1.5px solid #4064e8;

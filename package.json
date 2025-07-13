@@ -4,6 +4,7 @@
   "description": "A simple Web Interface for performing crud operation and rendering list of employees with basic functionalities",
   "main": "index.js",
   "scripts": {
+    "prebuild" : "rm -rf ./dist && mkdir -p ./dist",
     "build" : "node render.js", 
     "postbuild" : "rm -rf ./dist/assets && rm -rf ./dist/data && rm -rf ./dist/constants && cp -r ./src/assets/ ./dist/assets && cp -r ./src/data ./dist/data && cp -r ./src/constants ./dist/constants"
   },
