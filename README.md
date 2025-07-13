@@ -3,41 +3,41 @@ The project delves into interfacing with a templating engine and associate way t
 
 ## 📁 Project Structure
 
-TachniqueAssessment/
-    package.json
-    package-lock.json
-    render.js
-    utils/
-        helpers.js
-    src/
-        assets/
-            css/
-                AddModal.css
-                FilterForm.css
-                footer.css
-                gird.css
-                header.css
-                index.css
-                pagination.css
-            js/
-                EmployeeModel.js
-                main.js
-                Ops.js
-                run.js
-        constants/
-            constants.js
-        data/
-            employee.json
-        templates/
-            index.ftl
-            partials/
-                AddModal.ftl
-                FilterForm.ftl
-                Footer.ftl
-                Grid.ftl
-                Header.ftl
-                Pagination.ftl
-    dist/
+**EmployeeDirectory/**
+  - `package.json`
+  - `package-lock.json`
+  - `render.js`
+  - **utils/**
+    - `helpers.js`
+  - **src/**
+    - **assets/**
+      - **css/**
+        - `AddModal.css`
+        - `FilterForm.css`
+        - `footer.css`
+        - `gird.css`
+        - `header.css`
+        - `index.css`
+        - `pagination.css`
+      - **js/**
+        - `EmployeeModel.js`
+        - `main.js`
+        - `Ops.js`
+        - `run.js`
+    - **constants/**
+      - `constants.js`
+    - **data/**
+      - `employee.json`
+    - **templates/**
+      - `index.ftl`
+      - **partials/**
+        - `AddModal.ftl`
+        - `FilterForm.ftl`
+        - `Footer.ftl`
+        - `Grid.ftl`
+        - `Header.ftl`
+        - `Pagination.ftl`
+  - **dist/**
 
 ### 📁 Directory and File Descriptions
 
