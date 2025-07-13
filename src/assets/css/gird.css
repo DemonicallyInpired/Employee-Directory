@@ -58,3 +58,9 @@
         justify-content: space-between;
     }
 }
+@media screen and (min-width : 600px){
+    .app__grid__item {
+        min-width: fit-content;
+        max-width: 50%;
+    }
+}
