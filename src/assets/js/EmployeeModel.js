@@ -46,7 +46,7 @@ class HandlEmployeeModel {
     try {
       if (this.data.length !== 0) return this.data;
       if (typeof window !== "undefined") {
-        const res = await fetch("/dist/data/employee.json");
+        const res = await fetch("/data/employee.json");
         if (!res.ok) throw new Error("failed to load employee.json");
         const parsedData = await res.json(); 
         this.data = await parsedData?.map((item)=>({...item, id : randomUUID()}));

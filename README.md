@@ -78,6 +78,25 @@ To put it together,
 - Utils offer reusable helper functions.
 - dist/ is where your production-ready files are output after building the project.
 
+## Build Instruction
+- This project employs the usage of nodejs wrapper around freemarker itself, but since freemarker is inherently a templating engine developed to work with java like Object instance it still require openJDK for the consequent compilation and processing of `.ftl` templates. Consequent the DockerFile specified in the following instructions: 
+
+    - use Node.js as main runtime
+    - Install OpenJDK(for freemarker.js to work)
+    - Builds the consequent application from the source as specified by the build script. 
+
+a. Build from the docker image
+```sh
+docker build -t imageTag .
+```
+b. Run the container
+
+```sh
+docker run -p 3000:3000 imageTag
+```
+
+c. The compiled file can be accessed within the build i.e. dist/ folder. 
+
 ## UI Previews
 
 **HomePage**
