@@ -8,7 +8,7 @@ RUN apk add --no-cache openjdk17-jre
 WORKDIR /app
 
 # Copy package files and install dependencies
-COPY package.json package-lock.json ./
+COPY package.json ./
 RUN npm install --production
 
 # Copy the rest of the application code
