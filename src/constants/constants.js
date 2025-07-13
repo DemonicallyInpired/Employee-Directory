@@ -1,0 +1,14 @@
+export const SORTBYROLE = "SORTBYROLE";  
+export const PAGINATION = "PAGINATION"; 
+export const OPENMODAL = "OPENMODAL"; 
+export const CLOSEMODAL = "CLOSEMODAL"; 
+export const ADD_EMPLOYEE = "ADDEMPLOYEE"; 
+export const HANDLEINPUT = "HANDLEINPUT"; 
+export const DEPARTMENTS = ["IT", "HR", "Finance"]; 
+export const ROLES = ["manager", "developer", "analyst"]; 
+export const HANDLESEARCH = "HANDLESEARCH";
+export const HANDLEFILTER = "HANDLEFILTER"; 
+export const HANDLEFILTEROPEN = "HANDLEFILTEROPEN"; 
+export const HANDLEFILTERCLOSE = "HANDLEFILTERCLOSE"; 
+export const HANDLEFILTERINPUT = "HANDLEFILTERINPUT"; 
+export const HANDLEFILTERRESET = "HANDLEFILTERRESET";  

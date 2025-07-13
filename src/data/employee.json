@@ -1,0 +1,37 @@
+[
+  {
+    "firstName": "Alice",
+    "lastName": "Smith",
+    "email": "alice@example.com",
+    "department": "HR",
+    "role": "manager"
+  },
+  {
+    "firstName": "Bob",
+    "lastName": "Johnson",
+    "email": "bob.johnson@example.com",
+    "department": "IT",
+    "role": "developer"
+  },
+  {
+    "firstName": "Carol",
+    "lastName": "Williams",
+    "email": "carol.williams@example.com",
+    "department": "Finance",
+    "role": "Analyst"
+  },
+  {
+    "firstName": "David",
+    "lastName": "Brown",
+    "email": "david.brown@example.com",
+    "department": "IT",
+    "role": "manager"
+  },
+  {
+    "firstName": "Eva",
+    "lastName": "Davis",
+    "email": "eva.davis@example.com",
+    "department": "HR",
+    "role": "developer"
+  }
+]

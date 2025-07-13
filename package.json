@@ -1,0 +1,16 @@
+{
+  "name": "tachniqueassessment",
+  "version": "1.0.0",
+  "description": "A simple Web Interface for performing crud operation and rendering list of employees with basic functionalities",
+  "main": "index.js",
+  "scripts": {
+    "build" : "node render.js", 
+    "postbuild" : "rm -rf ./dist/assets && rm -rf ./dist/data && rm -rf ./dist/constants && cp -r ./src/assets/ ./dist/assets && cp -r ./src/data ./dist/data && cp -r ./src/constants ./dist/constants"
+  },
+  "author": "DemonicallyInspired",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "freemarker.js": "^1.4.0"
+  }
+}

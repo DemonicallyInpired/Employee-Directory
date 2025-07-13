@@ -1,0 +1,21 @@
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    background: linear-gradient(90deg, #4064e8 0%, #6a82fb 100%);
+    color: whitesmoke;
+    width: 100%;
+    padding: 1rem 0;
+    box-sizing: border-box;
+    text-align: center;
+    box-shadow: 0 -2px 8px rgba(64, 100, 232, 0.08);
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 18px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}

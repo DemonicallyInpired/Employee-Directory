@@ -1,0 +1,71 @@
+.app__header {
+    display: flex;
+    width: 100vw;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 1rem; 
+    padding: 1.5rem 2rem 1rem 2rem;
+    background: linear-gradient(90deg, #4064e8 0%, #6a82fb 100%);
+    box-shadow: 0 2px 8px rgba(64, 100, 232, 0.08);
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.app__header .logo {
+    width: 48px;
+    height: 48px;
+    background: #fff3;
+    border-radius: 50%;
+    margin-bottom: 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: bold;
+}
+.app__header h1{
+    color: #fff;
+    text-align: center;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+}
+.app__header input {
+    flex: 0.25;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    border: 1px solid #dbeafe;
+    background: #f8fafc;
+    font-size: 1rem;
+    box-shadow: 0 1px 2px #0001;
+}
+.app__header input:focus {
+    border-color: #4064e8;
+    background: #fff;
+}
+.app__header button{
+    padding: 0.5rem 1.5rem;
+    border-radius: 8px;
+    background: #fff;
+    color: #4064e8;
+    border: 1px solid #4064e8;
+    font-weight: 600;
+    box-shadow: 0 1px 2px #0001;
+}
+.app__header button:hover {
+    background: #4064e8;
+    color: #fff;
+}
+@media screen and (min-width : 420px){
+    .app__header {
+        flex-direction: row;
+        gap: 0rem; 
+        align-items: center;
+    }
+    .app__header .logo {
+        margin-bottom: 0;
+        margin-right: 1rem;
+    }
+}
