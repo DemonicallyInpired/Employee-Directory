@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="./assets/css/footer.css" />
         <link rel="stylesheet" href="./assets/css/AddModal.css" />
         <link rel="stylesheet" href="./assets/css/FilterForm.css" />
+        <title>Employee Directory</title>
     </head>
     <body>
         <#include "/partials/Header.ftl" />
